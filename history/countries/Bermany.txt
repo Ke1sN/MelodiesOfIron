@@ -1,0 +1,18 @@
+set_politics = { ruling_party = neutrality # Рулевая партия last_election = “1936.1.1” # Последние выборы (если есть) election_frequency = 48 # Через сколько проводят выборы elections_allowed = no # Есть ли выборы }
+
+set_popularities = { democratic = 15 # Демократия neutrality = 20 # Нейтралитет communism = 60 # Коммунизм fascism = 5 # Фашизм }
+
+
+set_research_slots = 3 # Количество ячеек исследования
+
+set_technology = { # Технологии, которые будут открыты при старте infantry_weapons1 basic_artillery … }
+
+create_country_leader = { # Лидер страны name = “Mega Lider” # Имя desc = “” # Описание picture = “gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds” # Картинка expire = “1965.1.1” # Когда умрет ideology = stalinism # За какую Идеологию (входит в types у коммунистов) traits = { # Черты лидера charismatic_negotiator } }
+
+create_navy_leader = { # Адмирал флота name = “Viktor Petrov” # Имя picture = “gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds” # Картинка skill = 3 # Уровень навыка (от 1 до 5) traits = { # Черты адмирала blockade_runner } }
+
+create_army_leader = { # Генерал армии name = “Ivan Ivanov” # Имя picture = “gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds” # Картинка skill = 4 # Уровень навыка (от 1 до 5) traits = { # Черты генерала infantry_officer } }
+
+capital = 5 # id провинции, где находится столица
+
+oob = “BER_1936” # Файл с составом армии

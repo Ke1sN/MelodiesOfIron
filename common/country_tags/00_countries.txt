@@ -1,0 +1,9 @@
+GAS = "Countries/Gasco.txt"
+BER = "Countries/Bermany.txt"
+NUP = "Countries/Nepon.txt"
+ABS = "Countries/Abyssinian.txt"
+PRE = "Countries/Preria.txt"
+
+
+
+#NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

@@ -1,0 +1,14 @@
+
+	GAS_El_Kirit={
+		name="Иль'Кирит"
+		portraits={
+			civilian={
+				large=GFX_Porait_El'Kirit
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}

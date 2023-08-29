@@ -1,0 +1,19 @@
+GAS_male_names = { name = “Александр” name = “Борис” name = “Владимир” name = "Казимир"}
+
+GAS_surnames = { name = “Иванов” name = “Петров” name = “Сидоров” … }
+
+BER_male_names = { name = “Александр” name = “Борис” name = “Владимир” name = "Казимир"}
+
+BER_surnames = { name = “Иванов” name = “Петров” name = “Сидоров” … }
+
+NUP_male_names = { name = “Александр” name = “Борис” name = “Владимир” name = "Казимир"}
+
+NUP_surnames = { name = “Иванов” name = “Петров” name = “Сидоров” … }
+
+ABS_male_names = { name = “Александр” name = “Борис” name = “Владимир” name = "Казимир"}
+
+ABS_surnames = { name = “Иванов” name = “Петров” name = “Сидоров” … }
+
+PRE_male_names = { name = “Александр” name = “Борис” name = “Владимир” name = "Казимир"}
+
+PRE_surnames = { name = “Иванов” name = “Петров” name = “Сидоров” … }
