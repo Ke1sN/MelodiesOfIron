@@ -1,4 +1,16 @@
-TST = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+BER = {
+	color = rgb { 32 32 32 }
+	color_ui = rgb { 32 32 32 }
+}
+GAS = {
+	color = rgb { 0 128 255 }
+	color_ui = rgb { 0 128 255 }
+}
+PRA = {
+	color = rgb { 0 0 204 }
+	color_ui = rgb { 0 0 204 }
+}
+RHE = {
+	color = rgb { 0 204 0 }
+	color_ui = rgb { 0 204 0 }
 }

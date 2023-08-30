@@ -1,8 +1,7 @@
 GAS = "Countries/Gasco.txt"
 BER = "Countries/Bermany.txt"
-NUP = "Countries/Nepon.txt"
-ABS = "Countries/Abyssinian.txt"
-PRE = "Countries/Preria.txt"
+RHE = "Countries/Rheinland.txt"
+PRA = "Countries/Prairie.txt"
 
 
 
