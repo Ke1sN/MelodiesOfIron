@@ -1,19 +1,56 @@
-set_politics = { ruling_party = democratic # Рулевая партия last_election = “1936.1.1” # Последние выборы (если есть) election_frequency = 48 # Через сколько проводят выборы elections_allowed = no # Есть ли выборы }
+capital = 141	
 
-set_popularities = { democratic = 15 # Демократия neutrality = 20 # Нейтралитет communism = 60 # Коммунизм fascism = 5 # Фашизм }
 
-add_ideas = { MYC_national_spirit # Национальный дух }
 
-set_research_slots = 3 # Количество ячеек исследования
 
-set_technology = { # Технологии, которые будут открыты при старте infantry_weapons1 basic_artillery … }
+set_research_slots = 3
 
-create_country_leader = { # Лидер страны name = “Mega Lider” # Имя desc = “” # Описание picture = “gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds” # Картинка expire = “1965.1.1” # Когда умрет ideology = stalinism # За какую Идеологию (входит в types у коммунистов) traits = { # Черты лидера charismatic_negotiator } }
+set_stability = 0.9
+set_war_support = 0.1
 
-create_navy_leader = { # Адмирал флота name = “Viktor Petrov” # Имя picture = “gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds” # Картинка skill = 3 # Уровень навыка (от 1 до 5) traits = { # Черты адмирала blockade_runner } }
 
-create_army_leader = { # Генерал армии name = “Ivan Ivanov” # Имя picture = “gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds” # Картинка skill = 4 # Уровень навыка (от 1 до 5) traits = { # Черты генерала infantry_officer } }
 
-capital = 5 # id провинции, где находится столица
-
-oob = “NUP_1936” # Файл с составом армии
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+				early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+				gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+			infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	}
+	
+	set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	neutrality = 20
+	communism = 60
+	fascism = 0
+}
