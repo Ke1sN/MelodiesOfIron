@@ -1,4 +1,4 @@
-name="Fuga_test"
+name="MelodiesOfIron"
 tags={
 	"Map"
 	"Utilities"
@@ -32,4 +32,4 @@ replace_path="history/general"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 supported_version="1.12.14"
-path="C:/Users/Daniil/Documents/Paradox Interactive/Hearts of Iron IV/mod/Fuga_test"
+path="mod/MelodiesOfIron"
