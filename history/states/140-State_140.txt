@@ -1,0 +1,27 @@
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		72 373 560 581 872 1139 1249 2161 2170 2190 2219 2229 2235 2242 
+	}
+	manpower=9824296
+	
+	state_category = megalopolis
+
+	history={
+			owner = GAS
+				add_core_of = GAS
+		victory_points = {
+			72 50 
+		}
+		buildings = {
+			infrastructure = 5 #was: 9
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+		}
+	}
+}

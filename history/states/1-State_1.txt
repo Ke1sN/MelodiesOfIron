@@ -2,36 +2,8 @@ state={
 	id=1
 	name="STATE_1"
 	provinces={
-		168 179 
+		1009 1016 1291 1396 1397 1401 
 	}
-	manpower=9824296
-	
-	state_category = megalopolis
-
-	history={
-		owner = GAS
-		victory_points = {
-			6103 50 
-		}
-		buildings = {
-			infrastructure = 5 #was: 9
-			arms_factory = 3
-			industrial_complex = 3
-			dockyard = 1
-			anti_air_building = 5
-			radar_station = 1
-			air_base = 10
-			11374 = {
-				naval_base = 10
-			}
-		}
-		add_core_of = GAS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 4
-			}
-		}
-	}
-
+	manpower=0
+	buildings_max_level_factor=1.000
 }

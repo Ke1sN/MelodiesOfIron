@@ -1,0 +1,9 @@
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		75 659 873 1383 1839 1843 1844 1849 1853 1856 1868 1875 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

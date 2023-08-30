@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Иль'Кирит
+ilkirit = {
+	name = ilkirit
+	portraits = {
+		civilian = {
+			#Custom image for Иль'Кирит
+			large = "/gfx/leaders/RHE/KXhpivQl-533454.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {  dictator }
+	}
+}
+}

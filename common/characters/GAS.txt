@@ -1,14 +1,33 @@
-
-	GAS_El_Kirit={
-		name="Иль'Кирит"
-		portraits={
-			civilian={
-				large=GFX_Porait_El'Kirit
-			}
-		}
-		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
-			id=-1
+characters = {
+#Create country leader - Диджей Арбуз
+didzheyarbuz = {
+	name = didzheyarbuz
+	portraits = {
+		civilian = {
+			#Custom image for Диджей Арбуз
+			large = "/gfx/leaders/GAS/ESqRuYOb-1.dds"
 		}
 	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = rexism
+		traits = {  }
+	}
+}
+
+#Create country leader - Витта Скалетта
+vittaskaletta = {
+	name = vittaskaletta
+	portraits = {
+		civilian = {
+			#Custom image for Витта Скалетта
+			large = "/gfx/leaders/GAS/OXEIlzJU-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {  }
+	}
+}
+}
