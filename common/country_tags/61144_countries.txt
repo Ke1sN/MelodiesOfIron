@@ -1,4 +1,0 @@
-RHE = "countries/Рейнский Союз.txt"
-BER = "countries/Бермания.txt"
-GAS = "countries/Republic Gasco.txt"
-PRE = "countries/Прерия.txt"

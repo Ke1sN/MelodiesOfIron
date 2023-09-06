@@ -2,8 +2,22 @@ state={
 	id=26
 	name="STATE_26"
 	provinces={
-		66 85 239 327 431 749 766 1020 1452 1455 1459 1460 1468 1472 
+		1 230 438 440 443 447 449 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 61197800
+	
+	state_category = megalopolis
+	
+	history={
+		victory_points = {
+			230 50
+		}
+		owner = RHE
+		buildings = {
+			infrastructure = 5
+				industrial_complex = 6
+				arms_factory = 10
+		}
+		add_core_of = RHE
+
 }

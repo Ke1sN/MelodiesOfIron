@@ -1,8 +1,4 @@
-GAS = "Countries/Gasco.txt"
-BER = "Countries/Bermany.txt"
-RHE = "Countries/Rheinland.txt"
-PRA = "Countries/Prairie.txt"
-
-
-
-#NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
+RHE = "countries/Рейнский Союз.txt"
+BER = "countries/Бермания.txt"
+GAS = "countries/Republic Gasco.txt"
+PRE = "countries/Прерия.txt"

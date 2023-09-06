@@ -2,29 +2,22 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		738 1128 
+		431 
 	}
-	manpower=9824296
+	manpower = 61197800
 	
 	state_category = megalopolis
-
+	
 	history={
-			owner = RHE
-				add_core_of = RHE
 		victory_points = {
-			738 50 
+			431 50
 		}
+		owner = RHE
 		buildings = {
-			infrastructure = 5 #was: 9
-			arms_factory = 3
-			industrial_complex = 3
-			dockyard = 1
-			anti_air_building = 5
-			radar_station = 1
-			air_base = 10
-			11374 = {
-				naval_base = 10
-			}
+			infrastructure = 5
+				industrial_complex = 6
+				arms_factory = 10
 		}
-	}
+		add_core_of = RHE
+
 }

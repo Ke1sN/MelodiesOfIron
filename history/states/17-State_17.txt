@@ -2,8 +2,22 @@ state={
 	id=17
 	name="STATE_17"
 	provinces={
-		207 363 444 970 1161 1203 1376 1417 1421 1423 1425 
+		43 198 318 359 364 371 376 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 61197800
+	
+	state_category = megalopolis
+	
+	history={
+		victory_points = {
+			359 50
+		}
+		owner = BER
+		buildings = {
+			infrastructure = 5
+				industrial_complex = 6
+				arms_factory = 10
+		}
+		add_core_of = BER
+
 }

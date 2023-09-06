@@ -2,8 +2,22 @@ state={
 	id=4
 	name="STATE_4"
 	provinces={
-		79 858 894 1773 1777 1786 1795 1796 1799 
+		63 175 264 274 292 323 448 450 455 456 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower = 61197800
+	
+	state_category = megalopolis
+	
+	history={
+		victory_points = {
+			175 50
+		}
+		owner = PRE
+		buildings = {
+			infrastructure = 5
+				industrial_complex = 6
+				arms_factory = 10
+		}
+		add_core_of = PRE
+
 }
